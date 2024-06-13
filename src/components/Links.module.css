@@ -1,0 +1,161 @@
+.commemorationSuggestionImageChild,
+.image5Icon {
+  height: 75.7px;
+  width: 65px;
+  object-fit: cover;
+}
+.image5Icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -6px;
+  left: 0;
+}
+.image5Wrapper {
+  height: 69.9px;
+  width: 55px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  position: relative;
+}
+.commemorationSuggestionImageItem {
+  height: 52.7px;
+  width: 80px;
+  border-radius: var(--br-mini);
+  object-fit: cover;
+}
+.commemorationSuggestionImage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.span {
+  text-decoration: underline;
+}
+.div,
+.h2,
+.h21 {
+  display: flex;
+  align-items: center;
+}
+.h2 {
+  margin: 0;
+  height: 62px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.div,
+.h21 {
+  justify-content: center;
+}
+.div {
+  flex: 0.8454;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-midnightblue-200);
+  flex-direction: row;
+  padding: var(--padding-4xl) var(--padding-13xl);
+  box-sizing: border-box;
+  min-width: 156px;
+}
+.h21 {
+  margin: 0;
+  height: 62px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.div1,
+.frameWrapper,
+.parent {
+  display: flex;
+  flex-direction: row;
+}
+.div1 {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-midnightblue-200);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xl-5) var(--padding-base);
+  box-sizing: border-box;
+  min-width: 156px;
+}
+.frameWrapper,
+.parent {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.parent {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-16xl);
+}
+.frameWrapper {
+  width: 514.5px;
+  align-items: flex-start;
+  min-width: 514.5px;
+}
+.commemorationSuggestionImageParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .frameWrapper {
+    flex: 1;
+    min-width: 100%;
+  }
+  .commemorationSuggestionImageParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .parent {
+    flex-wrap: wrap;
+    gap: var(--gap-mid);
+  }
+  .frameWrapper {
+    gap: var(--gap-131xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .commemorationSuggestionImage {
+    flex-wrap: wrap;
+  }
+  .h2 {
+    font-size: var(--font-size-2xl);
+  }
+  .div {
+    flex: 1;
+  }
+  .h21 {
+    font-size: var(--font-size-2xl);
+  }
+  .frameWrapper {
+    gap: var(--gap-56xl);
+  }
+}

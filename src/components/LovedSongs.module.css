@@ -1,0 +1,119 @@
+.favoriteSongItemImageConta {
+  height: 125px;
+  width: 232px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.laddersMac {
+  margin: 0;
+  align-self: stretch;
+  height: 55px;
+  position: relative;
+  font-size: inherit;
+  text-decoration: underline;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.laddersMacMillerWrapper {
+  width: 742px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.p {
+  margin: 0;
+  align-self: stretch;
+  height: 145px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameGroup,
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-5xl);
+}
+.frameGroup {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  min-width: 520px;
+  max-width: 100%;
+}
+.favoriteSongItemImageContaParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+}
+.favoriteSongItemImageContaParent,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-11xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-lightblue-200);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-2xl) var(--padding-10xl) var(--padding-6xs)
+    var(--padding-3xl);
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--font-size-13xl);
+  color: var(--black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1225px) {
+  .frameWrapper {
+    gap: var(--gap-79xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .frameGroup {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .laddersMac {
+    font-size: var(--font-size-7xl);
+  }
+  .frameWrapper {
+    gap: var(--gap-30xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .laddersMac,
+  .p {
+    font-size: var(--font-size-lgi);
+  }
+  .frameWrapper {
+    gap: var(--gap-5xl);
+  }
+}

@@ -1,0 +1,80 @@
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  max-width: 100%;
+}
+.b,
+.h1 {
+  height: 44px;
+  position: relative;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.h1 {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.div,
+.inner,
+.parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 43px;
+  max-width: 100%;
+}
+.div,
+.inner {
+  box-sizing: border-box;
+}
+.inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 80px;
+  max-width: 100%;
+  text-align: right;
+  font-size: var(--font-size-17xl);
+  color: var(--black);
+  font-family: var(--font-inter);
+}
+.div {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 57px;
+  gap: var(--gap-lgi);
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 750px) {
+  .b,
+  .h1 {
+    font-size: var(--font-size-10xl);
+  }
+  .parent {
+    gap: var(--gap-2xl);
+  }
+  .inner {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .b,
+  .h1 {
+    font-size: var(--font-size-3xl);
+  }
+}
