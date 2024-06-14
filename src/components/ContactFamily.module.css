@@ -1,0 +1,32 @@
+.u {
+  position: relative;
+  text-decoration: underline;
+}
+.contactButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-12xs);
+}
+.div {
+  position: relative;
+}
+.contactButton1,
+.contactFamily {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-12xs);
+}
+.contactFamily {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-10xs);
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--black);
+  font-family: var(--font-inter);
+}

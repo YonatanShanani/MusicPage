@@ -1,0 +1,9 @@
+.favoriteSongItemImageConta {
+  height: 125px;
+  width: 232px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}

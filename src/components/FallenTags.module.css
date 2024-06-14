@@ -1,0 +1,114 @@
+.b {
+  position: relative;
+  font-weight: 600;
+}
+.wrapper {
+  margin: 0 !important;
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-8xs);
+}
+.b1,
+.city {
+  position: relative;
+}
+.city {
+  height: 40px;
+  width: 130.5px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-midnightblue-200);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-6xs) var(--padding-2xs)
+    var(--padding-xs);
+  box-sizing: border-box;
+}
+.b1 {
+  font-size: var(--font-size-mini);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+}
+.container {
+  margin: 0 !important;
+  position: absolute;
+  top: 11px;
+  left: 23px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-8xs);
+}
+.unitDetails {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-base) var(--padding-2xs)
+    var(--padding-4xl);
+  background-color: var(--color-midnightblue-200);
+  height: 40px;
+  width: 130.5px;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  position: relative;
+}
+.div {
+  position: relative;
+  font-weight: 600;
+}
+.frame {
+  margin: 0 !important;
+  position: absolute;
+  top: 11px;
+  left: 13px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-8xs);
+}
+.cityParent,
+.unitDetails1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.unitDetails1 {
+  height: 40px;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-midnightblue-200);
+  flex-direction: column;
+  padding: var(--padding-2xs) var(--padding-10xs) var(--padding-2xs)
+    var(--padding-smi);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 105px;
+}
+.cityParent {
+  width: 445.1px;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .cityParent {
+    flex-wrap: wrap;
+  }
+}

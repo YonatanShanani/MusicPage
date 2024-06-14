@@ -1,0 +1,68 @@
+.laddersMac {
+  margin: 0;
+  align-self: stretch;
+  height: 55px;
+  position: relative;
+  font-size: inherit;
+  text-decoration: underline;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.laddersMacMillerWrapper {
+  width: 742px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.p {
+  margin: 0;
+  align-self: stretch;
+  height: 145px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent,
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-5xl);
+}
+.frameParent {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  min-width: 520px;
+  max-width: 100%;
+  text-align: right;
+  font-size: var(--font-size-13xl);
+  color: var(--black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .frameParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .laddersMac {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .laddersMac,
+  .p {
+    font-size: var(--font-size-lgi);
+  }
+}

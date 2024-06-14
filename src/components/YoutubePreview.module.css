@@ -1,0 +1,9 @@
+.image3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}

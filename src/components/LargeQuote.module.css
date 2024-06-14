@@ -1,0 +1,23 @@
+.h1 {
+  margin: 0;
+  height: 102px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+@media screen and (max-width: 750px) {
+  .h1 {
+    font-size: var(--font-size-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .h1 {
+    font-size: var(--font-size-11xl);
+  }
+}

@@ -1,0 +1,43 @@
+.favoriteSongItemImagesContChild,
+.image5Icon {
+  height: 75.7px;
+  width: 65px;
+  object-fit: cover;
+}
+.image5Icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -4px;
+  left: 0;
+}
+.image5Wrapper {
+  height: 69.9px;
+  width: 55px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  position: relative;
+}
+.favoriteSongItemImagesContItem {
+  height: 52.7px;
+  width: 80px;
+  border-radius: var(--br-mini);
+  object-fit: cover;
+}
+.favoriteSongItemImagesCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+@media screen and (max-width: 450px) {
+  .favoriteSongItemImagesCont {
+    flex-wrap: wrap;
+  }
+}

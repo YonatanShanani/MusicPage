@@ -1,68 +1,34 @@
-.favoriteSongItemImageConta {
-  height: 125px;
-  width: 232px;
-  position: relative;
-  border-radius: var(--br-3xs);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-.laddersMac {
-  margin: 0;
-  align-self: stretch;
-  height: 55px;
-  position: relative;
-  font-size: inherit;
-  text-decoration: underline;
-  font-weight: 700;
-  font-family: inherit;
+.favoriteSongItemImageContaParent,
+.frameContainer {
   display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-.laddersMacMillerWrapper {
-  width: 742px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-}
-.p {
-  margin: 0;
-  align-self: stretch;
-  height: 145px;
-  position: relative;
-  display: inline-block;
-  flex-shrink: 0;
-}
-.frameGroup,
-.wrapper {
-  display: flex;
-  flex-direction: column;
-}
-.wrapper {
-  align-self: stretch;
-  align-items: center;
-  justify-content: center;
-  font-size: var(--font-size-5xl);
-}
-.frameGroup {
-  flex: 1;
-  align-items: flex-end;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-base);
-  min-width: 520px;
   max-width: 100%;
 }
 .favoriteSongItemImageContaParent {
   align-self: stretch;
-  flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
   gap: var(--gap-11xl);
 }
-.favoriteSongItemImageContaParent,
+.frameContainer {
+  width: 514.5px;
+  min-width: 514.5px;
+}
+.favoriteSongItemImagesContParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+}
 .frameParent,
 .frameWrapper {
   display: flex;
@@ -96,22 +62,25 @@
   }
 }
 @media screen and (max-width: 1050px) {
-  .frameGroup {
+  .frameContainer {
+    flex: 1;
     min-width: 100%;
+  }
+  .favoriteSongItemImagesContParent {
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 750px) {
-  .laddersMac {
-    font-size: var(--font-size-7xl);
+  .frameContainer {
+    gap: var(--gap-131xl);
   }
   .frameWrapper {
     gap: var(--gap-30xl);
   }
 }
 @media screen and (max-width: 450px) {
-  .laddersMac,
-  .p {
-    font-size: var(--font-size-lgi);
+  .frameContainer {
+    gap: var(--gap-56xl);
   }
   .frameWrapper {
     gap: var(--gap-5xl);

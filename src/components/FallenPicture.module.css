@@ -1,0 +1,12 @@
+.heroImageChild {
+  height: 191px;
+  width: 191px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: contain;
+}
+@media screen and (max-width: 750px) {
+  .heroImageChild {
+    flex: 1;
+  }
+}

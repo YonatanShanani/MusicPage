@@ -1,0 +1,108 @@
+.icon1 {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+}
+.icon,
+.iconWrapper {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 32px;
+  height: 30px;
+  position: relative;
+  justify-content: center;
+}
+.iconWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.text {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+.navbarDropdownButton,
+.parent,
+.textWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.textWrapper {
+  justify-content: center;
+}
+.navbarDropdownButton,
+.parent {
+  background-color: var(--color-white);
+  border: 1px solid var(--black);
+  box-sizing: border-box;
+}
+.navbarDropdownButton {
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 var(--padding-3xs) 0 var(--padding-5xs);
+  min-width: 73px;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.parent {
+  height: 31.8px;
+  width: 71px;
+  justify-content: flex-start;
+  padding: var(--padding-6xs-4) var(--padding-5xs);
+  gap: var(--gap-mini);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  color: var(--black);
+}
+.frameWrapper,
+.navbarDropdownButtonParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.navbarDropdownButtonParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.frameWrapper {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-lightblue-100);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-8xs) var(--padding-185xl);
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .frameWrapper {
+    padding-left: var(--padding-83xl);
+    padding-right: var(--padding-83xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navbarDropdownButton {
+    flex-wrap: wrap;
+  }
+  .frameWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
