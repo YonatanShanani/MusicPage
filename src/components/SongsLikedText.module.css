@@ -1,0 +1,17 @@
+.p {
+  margin: 0;
+  align-self: stretch;
+  height: 145px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--black);
+  text-align: right;
+  display: inline-block;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 450px) {
+  .p {
+    font-size: var(--font-size-lgi);
+  }
+}

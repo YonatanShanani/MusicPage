@@ -1,37 +1,9 @@
-.h1,
 .wrapper {
   align-self: stretch;
   display: flex;
-  align-items: center;
-}
-.h1 {
-  margin: 0;
-  height: 55px;
-  position: relative;
-  font-size: inherit;
-  text-decoration: underline;
-  font-weight: 700;
-  font-family: inherit;
-  flex-shrink: 0;
-}
-.wrapper {
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-}
-.span,
-.span1 {
-  display: block;
-}
-.span1 {
-  white-space: pre-wrap;
-}
-.p {
-  margin: 0;
-  height: 323px;
-  flex: 1;
-  position: relative;
-  display: inline-block;
-  max-width: 100%;
 }
 .container,
 .frameParent {
@@ -60,16 +32,5 @@
 @media screen and (max-width: 1050px) {
   .frameParent {
     min-width: 100%;
-  }
-}
-@media screen and (max-width: 750px) {
-  .h1 {
-    font-size: var(--font-size-7xl);
-  }
-}
-@media screen and (max-width: 450px) {
-  .h1,
-  .p {
-    font-size: var(--font-size-lgi);
   }
 }

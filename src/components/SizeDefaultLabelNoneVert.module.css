@@ -1,0 +1,7 @@
+.sizedefaultLabelnoneVert {
+  width: 100%;
+  background-color: var(--black);
+  height: 1px;
+  overflow: hidden;
+  flex-shrink: 0;
+}

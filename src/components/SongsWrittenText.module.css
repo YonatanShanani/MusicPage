@@ -1,0 +1,24 @@
+.span,
+.span1 {
+  display: block;
+}
+.span1 {
+  white-space: pre-wrap;
+}
+.p {
+  margin: 0;
+  height: 323px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--black);
+  text-align: right;
+  display: inline-block;
+  max-width: 100%;
+}
+@media screen and (max-width: 450px) {
+  .p {
+    font-size: var(--font-size-lgi);
+  }
+}
