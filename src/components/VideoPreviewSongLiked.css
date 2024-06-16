@@ -1,0 +1,15 @@
+.image-11 {
+  text-decoration: none;
+  position: absolute;
+  height: 32.72%;
+  width: 23.2%;
+  top: 11.26%;
+  right: 72.7%;
+  bottom: 56.02%;
+  left: 4.1%;
+  border-radius: var(--br-3xs);
+  background-image: url(/public/image-11@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}

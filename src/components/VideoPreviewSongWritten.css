@@ -1,0 +1,15 @@
+.image-3 {
+  text-decoration: none;
+  position: absolute;
+  height: 25.66%;
+  width: 23.2%;
+  top: 5.7%;
+  right: 71.5%;
+  bottom: 68.64%;
+  left: 5.3%;
+  border-radius: var(--br-3xs);
+  background-image: url(/public/image-3@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}

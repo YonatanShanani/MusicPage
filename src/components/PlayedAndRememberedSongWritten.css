@@ -1,0 +1,30 @@
+.a2,
+.b15 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.b15 {
+  width: 208px;
+  position: relative;
+  flex-shrink: 0;
+}
+.a2 {
+  text-decoration: none;
+  position: absolute;
+  width: 24%;
+  top: calc(50% + 130.5px);
+  right: 3%;
+  left: 73%;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-midnightblue-100);
+  height: 102px;
+  flex-direction: row;
+  padding: var(--padding-10xl) var(--padding-base);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--white);
+  font-family: var(--font-inter);
+}

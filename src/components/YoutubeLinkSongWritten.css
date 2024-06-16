@@ -1,0 +1,15 @@
+.image-61 {
+  text-decoration: none;
+  position: absolute;
+  height: 10.73%;
+  width: 8%;
+  top: 78.82%;
+  right: 72.7%;
+  bottom: 10.45%;
+  left: 19.3%;
+  border-radius: var(--br-mini);
+  background-image: url(/public/image-6@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}

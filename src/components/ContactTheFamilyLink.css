@@ -1,0 +1,13 @@
+.a4 {
+  text-decoration: underline;
+  position: absolute;
+  top: 306px;
+  left: 56px;
+  color: inherit;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 62px;
+  height: 25px;
+}
